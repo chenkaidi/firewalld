@@ -43,5 +43,5 @@ firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="172
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="192.168.0.0/16" accept"
 
 
-# 添加操作后别忘了执行重载
+# reload 重载
 firewall-cmd --reload
