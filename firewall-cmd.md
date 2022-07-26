@@ -14,9 +14,6 @@ firewall-cmd --state
 iptables -nL
 firewall-cmd --zone=public --list-ports
 
-##### 重载防火墙配置
-firewall-cmd --reload
-
 ##### 添加单个端口
 firewall-cmd --permanent --zone=public --add-port=3306/tcp
 
