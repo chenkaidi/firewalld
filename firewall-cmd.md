@@ -7,7 +7,7 @@ systemctl enable firewalld.service
 #### 关闭防火墙
 systemctl stop firewalld.service
 
-###### 查看防火墙状态
+##### 查看防火墙状态
 firewall-cmd --state
 
 ##### 查看现有的规则
