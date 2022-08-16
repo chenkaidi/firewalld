@@ -1,5 +1,7 @@
 ### 开启防火墙
-```systemctl start firewalld.service```
+```
+systemctl start firewalld.service
+```
 
 #### 防火墙开机启动
 ```systemctl enable firewalld.service```
